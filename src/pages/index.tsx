@@ -4,5 +4,9 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <Link href="/blocks/page-section/hero">hero</Link>;
+  return (
+    <Link href="/blocks/page-section/hero/callToActionWithAnnotation">
+      hero
+    </Link>
+  );
 }
